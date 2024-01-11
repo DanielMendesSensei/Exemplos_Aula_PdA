@@ -20,10 +20,9 @@ ul, ol, li
 .example 
 {
     color: #ffffff;
-    /* display: flex;
-    flex-direction: row; */
-    /* flex-direction: row;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
     /* flex-flow: row-reverse wrap; */
 }    
 
@@ -56,7 +55,7 @@ ul, ol, li
     height: 300px;
 }
 
-@media screen and (max-width: 600px) 
+@media screen and (min-width: 400px) and (max-width: 600px) 
 {
     .example-item_second{
         background-color: #c7578f; 
