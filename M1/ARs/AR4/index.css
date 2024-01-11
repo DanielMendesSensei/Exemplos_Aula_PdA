@@ -55,9 +55,27 @@ ul, ol, li
     height: 300px;
 }
 
-@media screen and (min-width: 400px) and (max-width: 600px) 
+
+/* 1- Entre 300px e 500px o background seja na cor verde */
+/* 2- Até 300px a cor do texto tem que ser pink */
+/* 3- Acima de 900px coloque o display em linha (row) */
+
+@media screen and (min-width: 400px) and (max-width:600px)
+{
+    .example-item_second
+    {
+        background-color: #c7578f; 
+        font-weight: 800;
+    }
+    .example-item_first
+    {
+        background-color: #212121;
+    }
+}
+
+/* @media screen and (min-width: 400px) and (max-width: 600px) 
 {
     .example-item_second{
         background-color: #c7578f; 
     }
-}
+} */
