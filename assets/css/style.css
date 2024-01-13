@@ -88,3 +88,8 @@ ul li
     color: var(--bkcolor3);
     transition: all 0.2s;
 }
+
+.images
+{
+    width: 30%;
+}

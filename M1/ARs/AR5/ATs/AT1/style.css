@@ -1,0 +1,87 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+ul, ol, li {
+    color: black;
+    list-style: none;
+}
+
+.example{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}    
+
+/*      PROPRIEDADES E VALORES      */
+/*
+   align-items -> alinhamento vertical
+   justify-content -> alinhamento horizontal 
+  
+   VALORES ACEITOS (existem mais pesquisem!)
+   flex-start -> comeco
+   flex-end -> final
+   center -> centro
+
+   EXEMPLO:
+   align-items: center;
+*/
+
+.example-item_first{
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    display: ;
+    flex-direction: ;
+    justify-content: ;
+    align-items: ;
+} 
+.example-item_second{
+    background-color: #57c76b;
+    width: 300px;
+    height: 300px;
+    display: ;
+    flex-direction: ;
+    justify-content: ;
+    align-items: ;
+}
+.example-item_third{
+    background-color: purple;
+    width: 300px;
+    height: 300px;
+    display: ;
+    flex-direction: ;
+    justify-content: ;
+    align-items: ;
+}
+
+/*⬇️ Comentar esta estilizacao do exercicio 6 em diante ⬇️*/
+ul, ol, li, img {
+    display: none;
+}
+/*⬆️            ⬆️*/
+
+/* RESPONSIVIDADE */
+/* 1- Entre 300px e 500px o background seja na cor verde */
+/* 2- Até 300px a cor do texto tem que ser pink */
+/* 3- Acima de 900px coloque o sentido dos itens em linha */
+/* 4- Abaixo de 450px coloque o sentido dos itens em coluna */
+
+/*⬇️ Utilize o exemplo abaixo para resolver os 3 exercicios acima ⬇️*/
+/* @media screen and (min-width: 400px) and (max-width:600px){
+    .example-item_second{
+        background-color: #c7578f; 
+        font-weight: 800;
+    }
+    .example-item_first{
+        background-color: #212121;
+    }
+} */
