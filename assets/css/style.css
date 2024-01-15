@@ -98,10 +98,9 @@ ul li
 
 main
 {
-    height: 430px;
-    background-color: var(--bkcolor1);
-    
+    background-color: var(--bkcolor1); 
 }
+
 .exemple
 {
     padding-top: 10px;
@@ -120,18 +119,19 @@ main
 .images
 {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.images > a
-{
 
-}
-.images > a > img
+.images > img
 {
     width: 40%;
     transition: all 0.5s;
 }
 
-.images > a > img:hover
+.images > img:hover
 {
     width: 50%;
     transition: all 0.5s;
