@@ -16,8 +16,13 @@
     --bkcolor3: #212121;
     --bkcolor4: #757575;
 
+    --txtcolor1: #3e1e56;
+    --txtcolor2: #212121;
+    --txtcolor3: #f1f1f1;
+
     --ftsize1: 1.6rem;
     --ftsize2: 1.8rem;
+    --ftsize3: 1.4rem;
 
     --ftweight1: 500;
     --ftweight2: 700;
@@ -28,7 +33,8 @@ body
     font-family: "Open Sans", sans-serif;
     background-color: var(--bkcolor4);
     width: 100%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 ul li
@@ -42,6 +48,7 @@ ul li
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px
 }
 
 #title h1
@@ -92,4 +99,67 @@ ul li
 .images
 {
     width: 30%;
+}
+
+main
+{
+    height: 430px;
+    background-color: var(--bkcolor1);
+    
+}
+.exemple
+{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main img
+{
+    width: 30%;
+}
+
+main p
+{
+    color: var(--txtcolor2);
+}
+
+main p a
+{
+    font-size: var(--ftsize3);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--bkcolor3);
+    color: var(--bkcolor1);
+    transition: all 0.2s;
+}
+
+main p a:hover
+{
+    border-radius: 0px;
+    transition: all 0.2s;
+}
+
+footer
+{
+    margin-top: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    font-size: var(--ftsize3);
+    color: var(--txtcolor3);
+    transition: all 0.5s
+}
+
+footer p a
+{
+    
+    color: var(--txtcolor3);
+}
+
+footer p a:hover
+{
+    color: var(--txtcolor1);
+    transition: all 0.5s;
 }
