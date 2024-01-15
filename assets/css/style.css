@@ -116,7 +116,14 @@ main
 }
 main img
 {
-    width: 30%;
+    width: 40%;
+    transition: all 0.5s;
+}
+
+main img:hover
+{
+    width: 50%;
+    transition: all 0.5s;
 }
 
 main p
