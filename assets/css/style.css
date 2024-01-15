@@ -96,11 +96,6 @@ ul li
     transition: all 0.2s;
 }
 
-.images
-{
-    width: 40%;
-}
-
 main
 {
     height: 430px;
@@ -114,24 +109,31 @@ main
     justify-content: center;
     align-items: center;
 }
-main img
+
+.exemple h2
+{
+    font-size: var(--ftsize3);
+    color: var(--txtcolor2);
+    font-weight: var(--ftweight2);
+}
+.images img
 {
     width: 40%;
     transition: all 0.5s;
 }
 
-main img:hover
+.images img:hover
 {
     width: 50%;
     transition: all 0.5s;
 }
 
-main p
+.images p
 {
     color: var(--txtcolor2);
 }
 
-main p a
+.images p a
 {
     font-size: var(--ftsize3);
     padding: 10px;
