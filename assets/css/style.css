@@ -108,6 +108,7 @@ main
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .exemple h2
@@ -116,24 +117,32 @@ main
     color: var(--txtcolor2);
     font-weight: var(--ftweight2);
 }
-.images img
+.images
+{
+    display: flex;
+}
+.images > a
+{
+
+}
+.images > a > img
 {
     width: 40%;
     transition: all 0.5s;
 }
 
-.images img:hover
+.images > a > img:hover
 {
     width: 50%;
     transition: all 0.5s;
 }
 
-.images p
+.images > p
 {
     color: var(--txtcolor2);
 }
 
-.images p a
+.images > p > a
 {
     font-size: var(--ftsize3);
     padding: 10px;
@@ -143,7 +152,7 @@ main
     transition: all 0.2s;
 }
 
-main p a:hover
+.images > p > a:hover
 {
     border-radius: 0px;
     transition: all 0.2s;
