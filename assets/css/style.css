@@ -104,17 +104,17 @@ main
 
 .exemple
 {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .exemple h2
 {
-    font-size: var(--ftsize3);
+    font-size: var(--ftsize2);
     color: var(--txtcolor2);
     font-weight: var(--ftweight2);
 }
@@ -123,24 +123,26 @@ main
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 .images > img
 {
-    width: 40%;
+    width: 45dvw;
     transition: all 0.5s;
 }
 
 .images > img:hover
 {
     width: 50%;
+    cursor: pointer;
     transition: all 0.5s;
 }
 
 .images > p
 {
+    padding-top: 30px;
     color: var(--txtcolor2);
 }
 
