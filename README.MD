@@ -2,6 +2,10 @@
 
 # 💻 Repositório de exemplos de aula ministrados pelos facilitadores da Programadores do Amanhã 👩🏾‍🏫🧑🏾‍🏫👨🏾‍🏫
 
+## 📤 Last Update
+Versão 1.14.0
+Implementação de Template Engine Handlebars in Client-Side, facilitando a manutenção e atualização do HTML
+
 ## 🤔 Como Usar
 Navegue entre os módulos para acessar as aulas, dentro de cada aula possuí links para as Atividades (ATs) e os Exemplos (EXs). Exemplo:
 
@@ -56,4 +60,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Esse projeto está sob a licença MIT.
 
 
-<h2 align="right"> Esse rep  é atualizado semanalmente 🌱... </h2>
+<h2 align="right"> Esse rep é atualizado semanalmente 🌱... </h2>
