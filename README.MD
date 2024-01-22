@@ -3,7 +3,7 @@
 # 💻 Repositório de exemplos de aula ministrados pelos facilitadores da Programadores do Amanhã 👩🏾‍🏫🧑🏾‍🏫👨🏾‍🏫
 
 ## 📤 Last Update
-Versão 1.14.0
+Versão 1.14.1
 Implementação de Template Engine Handlebars in Client-Side, facilitando a manutenção e atualização do HTML
 
 ## 🤔 Como Usar

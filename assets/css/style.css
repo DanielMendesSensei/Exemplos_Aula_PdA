@@ -17,6 +17,8 @@
     --bkcolor3: #212121;
     --bkcolor4: #757575;
 
+    --bkimage1: url("../imgs/Fundo-PDA.png");
+
     --txtcolor1: #3e1e56;
     --txtcolor2: #212121;
     --txtcolor3: #f1f1f1;
@@ -33,6 +35,8 @@ body
 {
     font-family: "Open Sans", sans-serif;
     background-color: var(--bkcolor4);
+    /* background-image: var(--bkimage1); */
+    background-size: cover;
     width: 100%;
     display: flex;
     flex-direction: column;
