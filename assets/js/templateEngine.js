@@ -15,8 +15,10 @@
 const TITLES = {
     home: "Bem vindo! Navegue pelos módulos e aulas para encontrar os exemplos feitos em aula",
     M1: "",
-    M2: ""
+    M2: "",
+    M3: " "
 }
+
 const MXs = {
     M0 : "/Exemplos_Aula_PdA/M0/M0.html",
     M1 : "/Exemplos_Aula_PdA/M1/M1.html",
