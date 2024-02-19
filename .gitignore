@@ -2,6 +2,7 @@
 NewUserMySQL.sql
 .pptx
 package-lock.json
+.vscode
 
 # Logs
 logs

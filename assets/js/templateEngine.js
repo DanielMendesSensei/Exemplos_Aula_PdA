@@ -16,7 +16,7 @@ const TITLES = {
     home: "Bem vindo! Navegue pelos módulos e aulas para encontrar os exemplos feitos em aula",
     M1: "",
     M2: "",
-    M3: " "
+    M3: ""
 }
 
 const MXs = {

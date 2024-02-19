@@ -3,8 +3,7 @@
 # 💻 Repositório de exemplos de aula ministrados pelos facilitadores da Programadores do Amanhã 👩🏾‍🏫🧑🏾‍🏫👨🏾‍🏫
 
 ## 📤 Last Update
-Versão 1.14.1
-Implementação de Template Engine Handlebars in Client-Side, facilitando a manutenção e atualização do HTML
+Versão 1.14.2 Aula 8 do M4 adicionado
 
 ## 🤔 Como Usar
 Navegue entre os módulos para acessar as aulas, dentro de cada aula possuí links para as Atividades (ATs) e os Exemplos (EXs). Exemplo:
