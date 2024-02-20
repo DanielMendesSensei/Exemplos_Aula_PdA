@@ -13,12 +13,16 @@
 
     /* OBJECT VARIABLES */
 const TITLES = {
-    home: "Bem vindo! Navegue pelos módulos e aulas para encontrar os exemplos feitos em aula",
-    M1: "",
-    M2: "",
-    M3: ""
+    home: "<Seja bem vindo aos Exemplos de Aula da Programadores do Amanhã!/>",
+    subtitle: "Navegue pelos módulos e suas aulas para encontrar os exemplos e atividades feitas em sala",
+    M1: "M1",
+    M2: "M2",
+    M3: "M3",
+    M4: "M4",
+    M5: "M5"
 }
 
+// vocês está no módulo {{TITLE.M4}}
 const MXs = {
     M0 : "/Exemplos_Aula_PdA/M0/M0.html",
     M1 : "/Exemplos_Aula_PdA/M1/M1.html",
@@ -29,6 +33,7 @@ const MXs = {
 
     /* INSTANCIAS */
 const passaDadosTitles = '<h1> {{home}} </h1>\
+                          <h2> {{subtitle}} </h2>\
                         <nav id="links" class="links"></nav>'
 
 const passaDadosPaths = "<ul> \
