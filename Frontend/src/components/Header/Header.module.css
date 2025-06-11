@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  position: absolute;
+  top: 0;
+}
+.header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  background-color: var(--bkcolor7);
+  font-size: var(--ftsize2);
+  text-align: center;
+  font-weight: var(--ftweight2);
+  color: var(--text-color2);
+}
