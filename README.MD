@@ -38,7 +38,7 @@ Navegue entre os módulos para acessar as aulas, dentro de cada aula possuí lin
 Se você aluno, facilitador, ou qualquer outra frente dentro da PdA e deseja contribuir para este projeto, siga estas etapas:
 
 1. Faça um fork do repositório.
-2. Crie uma nova branch: `git checkout -b minha-contribuição`
+2. Crie uma nova branch: `git checkout -b minha-contribuição` a partir da branch `develop` (Nela está o código atual da migração para o Next.Js Com Typescript)
 3. Faça suas alterações e envie um pull request.
 
 Por favor, siga as [diretrizes de contribuição](https://github.com/DanielMendesSensei/Exemplos_Aula_PdA/blob/main/assets/docs/CONTRIBUTING.md) para garantir um processo suave.
