@@ -1,0 +1,21 @@
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--ftsize2);
+  padding: 15px;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px 0;
+  background-color: var(--bkcolor3);
+  color: var(--bkcolor1);
+  transition: all 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.link:hover {
+  background-color: var(--bkcolor7);
+  border-radius: 0 20px;
+  color: var(--bkcolor3);
+  transition: all 0.2s;
+}
