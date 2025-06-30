@@ -1,33 +1,35 @@
-"use client";
 import ButtonNavigation from "@/components/ButtonNavigation/ButtonNavigation";
-import Card from "@/components/card";
-import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
-import Menu from "@/components/Menu/Menu";
-import "./page.module.css";
+import Menu from "@/components/Menu";
+import Config from "@/utils/config";
 
-import React from "react";
+export default function Home() {
+  const modulos = Array.from(new Set(Config().map((item) => item.moduloId)))
+    .map(Number)
+    .sort((a, b) => a - b)
+    .map(String);
 
-const TextoSaudacao: string =
-  "Olá Bem vindo! Navegue pelos módulos e aulas para encontrar os exemplos feitos em aula ";
-
-const Home = () => {
   return (
     <>
       <Header>
-        <h1>{TextoSaudacao}</h1>
+        <h1>Exemplos de Aula PdA</h1>
+        <p>
+          Olá! Navegue pelos módulos para encontrar os exemplos feitos em aula.
+        </p>
       </Header>
-      <Menu>
-        <ButtonNavigation URL="/M0" Text="M0" />
-        <ButtonNavigation URL="/M1" Text="M1" />
-        <ButtonNavigation URL="/M2" Text="M2" />
-        <ButtonNavigation URL="/M3" Text="M3" />
-        <ButtonNavigation URL="/M4" Text="M4" />
-        <ButtonNavigation URL="/M6" Text="M5" />
+      <Menu aria-label="Navegação dos Módulos">
+        {modulos.length === 0 ? (
+          <span>Nenhum módulo disponivel no momento.</span>
+        ) : (
+          modulos.map((modulo) => (
+            <ButtonNavigation
+              key={modulo}
+              URL={`/${modulo}`}
+              Text={`Módulo ${modulo}`}
+            />
+          ))
+        )}
       </Menu>
-      <Footer />
     </>
   );
-};
-
-export default Home;
+}
